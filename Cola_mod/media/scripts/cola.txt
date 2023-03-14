@@ -1,0 +1,35 @@
+	module COL
+{
+        imports
+        {
+            Base
+        }
+    
+    
+    item Limca
+	{
+		DisplayName         = Limca,
+		DisplayCategory     = Food,
+		Type                = Food,
+		Weight              = 0.3,
+		Icon                = Limca,
+		EvolvedRecipe       = Beverage:4;Beverage2:4,
+		FoodType            = SoftDrink,
+		CantBeFrozen        = TRUE,
+		EatType             = popcan,
+		Packaged            = TRUE,
+		ReplaceOnUse        = PopEmpty,
+		HungerChange        = -8,
+		ThirstChange        = -60,
+		UnhappyChange       = -10,
+		Calories            = 140,
+		Carbohydrates       = 39,
+		Lipids              = 0,
+		Proteins            = 0,
+		CustomContextMenu   = Drink,
+		CustomEatSound      = DrinkingFromCan,
+		StaticModel         = PopCanDiet,
+		WorldStaticModel    = PopCanDiet,
+		Tags                = HasMetal,
+	}
+}
